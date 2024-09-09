@@ -30,7 +30,7 @@ const userSchema = new Schema({
         require: true,
     },
     coverImage: {
-        type: String,
+        type: String,//cloudinary url 
 
     },
     watchHistory: [
@@ -88,4 +88,4 @@ userSchema.methods.generateRefreshToken = function () {
  )
 }
 
-export const User = mongoose.model("User",)
+export const User = mongoose.model("User",userSchema)
