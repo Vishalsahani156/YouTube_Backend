@@ -35,8 +35,8 @@ This is a backend API built using **Node.js** and **Express** that powers a YouT
 
 ### Prerequisites
 
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) (v14 or above)
+Make sure you have the following installed :
+- [Node.js](https://nodejs.org/) (v21 or above)
 - [MongoDB](https://www.mongodb.com/) (local or cloud instance)
 
 ### Installation Steps
